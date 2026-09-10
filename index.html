@@ -37,6 +37,14 @@
     user-select: none;
     touch-action: manipulation;
   }
+  h1 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-align: center;
+    padding: 0 1rem;
+  }
   #glass {
     width: min(80vw, 300px);
     aspect-ratio: 3 / 4;
@@ -97,6 +105,8 @@
 </style>
 </head>
 <body>
+  <h1>Can you guess what type of water this is?</h1>
+
   <img id="glass" alt="glass of water">
 
   <div id="result" aria-live="polite"></div>
